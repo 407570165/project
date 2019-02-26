@@ -10,4 +10,9 @@ public class Student {
 	public void print() {
 		System.out.println(name+"\t"+english);
 	}
+	public void setEnglish(int english) {
+		if (english<=100&&english>=0) {
+			this.english=english;
+		}
+	}
 }
