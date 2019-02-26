@@ -1,8 +1,8 @@
 package project;
 
 public class Student {
-	String name;
-	int english;
+	private String name;
+	protected int english;
 	public Student(String name,int english) {
 		this.name=name;
 		this.english=english;
